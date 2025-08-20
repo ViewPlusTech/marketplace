@@ -1,0 +1,346 @@
+{
+	"en": {
+		"common": {
+			"app": "Inclusio Marketplace",
+			"cancel": "Cancel",
+			"done": "Done",
+			"visibility": {
+				"public": "Public",
+				"protected": "All Users",
+				"private": "Me"
+			},
+			"languages": "Languages"
+		},
+		"links": {
+			"login": "Log In",
+			"register": "Register for an account",
+			"create": "Create new document"
+		},
+		"nav": {
+			"label": "Account menu",
+			"login": "Log In",
+			"logout": "Log Out",
+			"register": "Create Account",
+			"dashboard": "Dashboard",
+			"search": "Search",
+			"create": "Create Document",
+			"from_data": "Create Chart from Data",
+			"account": "Account",
+			"settings": "Settings",
+			"page_loaded": "Loaded new page:"
+		},
+		"browse": {
+			"title": "Dashboard",
+			"heading": "My Documents",
+			"label": "My documents",
+			"count": {
+				"loading": "Loading...",
+				"available": "{count} documents available"
+			}
+		},
+		"login": {
+			"title": "Login",
+			"label": {
+				"username": "Username:",
+				"password": "Password:"
+			},
+			"placeholder": {
+				"username": "Enter your username here",
+				"password": "Enter your password here"
+			},
+			"show_password": {
+				"label": "Show Password",
+				"alert_hidden": "Password is hidden.",
+				"alert_visible": "Password is visible."
+			},
+			"button": {
+				"login": "Log In",
+				"forgot": "Forgot Username or Password?",
+				"register": "Register for an account"
+			},
+			"validation": {
+				"username_required": "Username is required",
+				"password_required": "Password is required"
+			},
+			"error": {
+				"401": "Username or password is not correct",
+				"423": "Account is locked, please contact support",
+				"default": "Log in unavailable, please try later"
+			}
+		},
+		"register": {
+			"debug_message": "This is the register page",
+			"title": "Create Account",
+			"label": {
+				"form": "Create Account Form",
+				"full_name": "Full Name:",
+				"username": "Username:",
+				"password": "Password:",
+				"email": "Email:"
+			},
+			"placeholder": {
+				"full_name": "Enter your full name here",
+				"email": "Enter your email here",
+				"username": "Enter your preferred username here",
+				"password": "Enter your chosen password here"
+			},
+			"button": {
+				"register": "Create account",
+				"login": "Already have an account? Log In"
+			},
+			"status": {
+				"registration_successful": "Account created!"
+			},
+			"error": {
+				"460": "Username is not available",
+				"461": "Username must be between {min} and {max} characters long",
+				"462": "Username must begin with a letter and only contain letters, numbers, or a dash",
+				"463": "Invalid username reservation token",
+
+				"470": "Email is already registered",
+				"471": "Email address is invalid",
+				"472": "Invalid email reservation token",
+
+				"480": "This password must be at least {min} characters long",
+				"481": "This password has been found {pwnCount, plural, one {in an online data breach} other {# times in online data breaches}}",
+
+				"490": "Reservation token has expired",
+				"default": "Account creation unavailable, please try later"
+			}
+		},
+		"output": {
+			"alerts": {
+				"send_to_device": {
+					"error": {
+						"invalid_content_attachment": "Invalid content attachment",
+						"no_device_resource_found": "No device or resource found",
+						"sending": "Error sending to device ({error})"
+					},
+					"success": "Successfully sent to device"
+				}
+			},
+			"aria_label": "Content output",
+			"buttons": {
+				"add_device": "Add Device",
+				"download": "Download",
+				"download_aria_label": "Download {name}",
+				"edit_graphic": "Edit Graphic",
+				"edit_graphic_aria_label": "Edit {name}",
+				"send_to_device": "Send to Device",
+				"send_to_device_aria_label": "Send {name} to Device",
+				"send_to_device_pending": "Sending to Device..."
+			},
+			"fieldset": {
+				"legend": "Choose your format",
+				"options": {
+					"aph_braille": "Monarch - Refreshable Displays",
+					"inclusio_tactile_view": "SVG File - TactileView and Other Tool",
+					"inclusio_text_to_speech": "Text Description - Auditory Description",
+					"viewplus_braille": "Embossed - ViewPlus",
+					"viewplus_audio_tactile": "IVEO/Audio-Tactile",
+					"vital_audio_tactile": "VITAL Tablet - Digital Multimodal"
+				}
+			}
+		},
+		"search": {
+			"debug_message": "This is the search page",
+			"title": "Search",
+			"instructions_1": "Use the Filters box to add and remove filters.",
+			"instructions_2": "Add keywords by typing them into the search field and pressing the Enter key.",
+			"instructions_3": "Search results will update as you type or add filters.",
+			"search_header": "Search Content",
+			"searching": "Searching...",
+			"available": "{ count, plural, =0 {No content items available to search} one {1 content item available to search} other {# total content items available to search}}",
+			"results": "{ count, plural, =0 {No search results} one {1 search result} other {# search results}}",
+			"untitled": "Untitled",
+			"filters_label": "Filter categories",
+			"filter_category": "{ category } category; { open, select, true {open} false {closed} other {error}}",
+			"filter_category_instructions":
+				"Use the arrow keys to navigate the filters, and space or enter to select filters.",
+			"category_opened": "{ category } category opened. Press right or down to enter the category, then use the arrow keys to navigate the filters, and space or enter to select them.",
+			"category_closed": "{ category } category closed",
+			"tag_selected": "Selected filter { tag }",
+			"tag_deselected": "Deselected filter { tag }",
+			"tag_selected_count": "{ count } filters selected",
+			"cards_list_label": "List of content items",
+			"cards_list_instructions": "Use the arrow keys to navigate and Enter or Space to inspect a content item.",
+			"card_item_number": "Content item {number}.",
+			"card_title": "Title is {title}.",
+			"card_description": "Description is {description}.",
+			"card_details": "Details",
+			"card_tags": "{ count, plural, =0 {No tags} one {Only tag is {tags}} other {Tags are {tags}} }",
+			"card_tags_label": "Tags:",
+			"card_tags_instruction": "Press the 'I' key for more information.",
+			"on_first_card": "You are on the first content item.",
+			"on_last_card": "You are on the last content item.",
+			"on_last_col_none_below": "You are on the last column, and no item is below.",
+			"no_cards_avail": "No content available.",
+			"dialog_load_error": "Error loading content"
+		},
+		"tag_edit": {
+			"debug_message": "This is the tag edit page",
+			"title": "Edit Tags",
+			"label": {
+				"category": "Category:",
+				"tag": "Tag:",
+				"tag_label": "Tag Label:",
+				"tag_description": "Tag Description:"
+			},
+			"button": {
+				"save": "Save tag"
+			}
+		},
+		"create": {
+			"debug_message": "This is the create page",
+			"title": "Create Document",
+			"label": {
+				"select_content": "Select document:",
+				"select_thumbnail": "Select thumbnail:",
+				"name": "Document Name:",
+				"description": "Description:",
+				"visibility": "Visibility:"
+			},
+			"untitled": "Untitled",
+			"jim_enhanced": "JIM Enhanced",
+			"enrich": {
+				"unarConvert": {
+					"requested": "Conversion Requested",
+					"pending": "Conversion Pending",
+					"running": "Conversion Running",
+					"failed": "Conversion Unsupported",
+					"error": "Conversion Error: {error}"
+				},
+				"unarGenerate": {
+					"requested": "Generation Requested",
+					"pending": "Generation Pending",
+					"running": "Generation Running",
+					"failed": "Generation Unsupported",
+					"error": "Generation Error: {error}"
+				}
+			},
+			"button": {
+				"generate": "Generate from description",
+				"convert": "Convert to SVG",
+				"download": "Download document",
+				"delete": "Cancel",
+				"done": "Done"
+			}
+		},
+		"edit": {
+			"debug_message": "This is the edit page",
+			"title": "Edit Document",
+			"label": {
+				"select_content": "Select document:",
+				"select_thumbnail": "Select thumbnail:",
+				"name": "Document Name:",
+				"description": "Description:",
+				"visibility": "Visibility:"
+			},
+			"untitled": "Untitled",
+			"jim_enhanced": "JIM Enhanced",
+			"enrich": {
+				"unarConvert": {
+					"requested": "Conversion Requested",
+					"pending": "Conversion Pending",
+					"running": "Conversion Running",
+					"failed": "Conversion Unsupported",
+					"error": "Conversion Error: {error}"
+				},
+				"unarGenerate": {
+					"requested": "Generation Requested",
+					"pending": "Generation Pending",
+					"running": "Generation Running",
+					"failed": "Generation Unsupported",
+					"error": "Generation Error: {error}"
+				}
+			},
+			"status": {
+				"push_to_android": {
+					"success": "Document pushed to Android",
+					"error": "Error pushing document to Android"
+				}
+			},
+			"button": {
+				"generate": "Generate from description",
+				"convert": "Convert to SVG",
+				"done": "Done",
+				"revert": "Undo changes",
+				"delete": "Delete document",
+				"download": "Download document",
+				"open_jim_editor": "Open JIM Editor",
+				"push_to_android": "Push to Android",
+				"push_to_android_pending": "Pushing to Android..."
+			},
+			"tags": {
+				"available": "Available {category}",
+				"selected": "Selected {category}",
+				"none_available": "None available",
+				"none_selected": "None selected"
+			}
+		},
+		"view": {
+			"debug_message": "This is the view page",
+			"title": "Inspect Content",
+			"label": {
+				"name": "Name",
+				"description": "Description"
+			},
+			"jim_enhanced": "JIM Enhanced",
+			"button": {
+				"download": "Download content",
+				"download_label": "Download {name}",
+				"edit": "Edit",
+				"save_to_collection": "Save to my collection"
+			},
+			"filter": {
+				"none_selected": "None selected"
+			}
+		},
+		"from_data": {
+			"title": "Create Chart from Data",
+			"chart_title_default": "Chart title",
+			"x_title_default": "X-axis title",
+			"y_title_default": "Y-axis title",
+			"announce_generated": "Chart generated successfully!",
+			"label": {
+				"select_type": "Select chart type:",
+				"select_content": "Select data file:",
+				"title": "Chart title:",
+				"x_title": "X-axis title:",
+				"y_title": "Y-axis title:",
+				"indep_col": "X-axis variable:",
+				"indep_type": "X-axis variable type:",
+				"bar": "Bar",
+				"column": "Column",
+				"line": "Line",
+				"pie": "Pie",
+				"donut": "Donut",
+				"string": "String",
+				"number": "Number",
+				"date": "Date"
+			},
+			"button": {
+				"done": "Publish chart",
+				"delete": "Delete document",
+				"generate": "Generate chart"
+			}
+		},
+		"app": {
+			"button": {
+				"current_theme": "Current Theme: {theme, select, normal {Normal} light {Light} dark {Dark} other {Unknown}}"
+			},
+			"client_version": "client version: {version}",
+			"response_codes": {
+				"400": "Username or password not provided",
+				"401": "Username or password incorrect"
+			},
+			"dialog": {
+				"close_button_alt_text": "Close dialog",
+				"message_title": "Message",
+				"confirm_title": "Confirm",
+				"alert_open": "Opening dialog {title}",
+				"alert_close": "Closing dialog"
+			}
+		}
+	}
+}
